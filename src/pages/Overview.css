@@ -1,0 +1,48 @@
+.bg-thead {
+  background-color: #00ffff69;
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: left;
+  border-bottom: 0;
+}
+tr{
+    border: 1px solid #ddd;
+}
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  margin-right: 8px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 25%) 0px 0.0625em 0.0625em,
+    rgb(0 0 0 / 25%) 0px 0.125em 0.5em,
+    rgb(255 255 255 / 10%) 0px 0px 0px 1px inset;
+}
+input[type="checkbox"]:checked::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 12px;
+  background: url("../../public/images/check.svg") no-repeat center;
+}
+.th-checkbox {
+  display: flex;
+  align-items: center;
+  border-bottom: 0;
+}
+.form-input {
+  display: block;
+}

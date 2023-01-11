@@ -1,0 +1,18 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+*,
+*::before,
+*::before {
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-size:0.9875rem;
+line-height:1.6;
+font-weight:400;
+background-color:#036bf212;
+color: #424242;
+font-family: 'Noto Sans', sans-serif;
+}
+
